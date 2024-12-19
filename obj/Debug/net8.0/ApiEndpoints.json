@@ -1,0 +1,60 @@
+[
+  {
+    "ContainingType": "Tabu.Controllers.LanguagesController",
+    "Method": "Create",
+    "RelativePath": "api/Languages/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tabu.DTOs.Languages.LanguageCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.LanguagesController",
+    "Method": "Delete",
+    "RelativePath": "api/Languages/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tabu.DTOs.Languages.LanguageDeleteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.LanguagesController",
+    "Method": "Read",
+    "RelativePath": "api/Languages/Read",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.LanguagesController",
+    "Method": "Update",
+    "RelativePath": "api/Languages/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tabu.DTOs.Languages.LanguageUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
