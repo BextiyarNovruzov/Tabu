@@ -1,4 +1,6 @@
 
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Tabu.DAL;
 using Tabu.Services.Abstracts;
@@ -17,6 +19,8 @@ namespace Tabu
             builder.Services.AddControllers();
             builder.Services.AddDbContext<TabuDbContext>(s=>s.UseSqlServer(builder.Configuration.GetConnectionString("MsSql")));
             builder.Services.AddScoped<ILanguagesServise,LanguagesService>();
+            builder.Services.AddFluentValidationAutoValidation();
+            builder.Services.AddValidatorsFromAssemblyContaining<Program>();
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

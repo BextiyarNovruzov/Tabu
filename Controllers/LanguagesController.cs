@@ -23,15 +23,15 @@ namespace Tabu.Controllers
         }    
           
         [HttpPut("Update")]
-        public async Task<IActionResult> Update(LanguageUpdateDto dto)
+        public async Task<IActionResult> Update(LanguageUpdateDto dto,string Code)
         {
-            await servise.UpdateAsync(dto);
+            await servise.UpdateAsync(dto, Code);
             return Ok();
         }   
         [HttpDelete("Delete")]
-        public async Task<IActionResult> Delete(LanguageDeleteDto dto)
+        public async Task<IActionResult> Delete(string Code)
         {
-            await servise.DeleteAsync(dto);
+            await servise.DeleteAsync(Code);
             return Ok();
         }     
     }

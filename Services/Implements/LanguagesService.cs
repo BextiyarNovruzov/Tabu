@@ -13,7 +13,7 @@ namespace Tabu.Services.Abstracts
             {
                 Code = dto.Code,
                 Name = dto.Name,
-                Icon = dto.Icon,
+                Icon = dto.IconUrl,
             });
             await context.SaveChangesAsync();
         }
@@ -25,29 +25,15 @@ namespace Tabu.Services.Abstracts
             return await context.Languages.Select(L => new LanguageGetDto
             {
                 Code = L.Code,
-                Name = L.Name,
+                Name = L.Name, 
                 Icon = L.Icon,
             }).ToListAsync();
         }
 
-        public async Task UpdateAsync(LanguageUpdateDto dto)
+       
+        public async Task DeleteAsync(string Code)
         {
-           var  excistingLanguage = await context.Languages.FindAsync(dto.Code);
-            if (excistingLanguage == null)
-            {
-                throw new Exception("Language Not Found brat!");
-            }
-            else
-            {
-                excistingLanguage.Code = dto.Code;
-                excistingLanguage.Name = dto.Name;
-                excistingLanguage.Icon = dto.Icon;
-            }
-            await context.SaveChangesAsync();
-        }
-        public async Task DeleteAsync(LanguageDeleteDto dto)
-        {
-            var excistingLanguage = await context.Languages.FindAsync(dto.Code);
+            var excistingLanguage = await context.Languages.FindAsync(Code);
             if(excistingLanguage == null)
             {
                 throw new Exception("Brat onsuz yoxdu bu dil nece sileceksenki");
@@ -58,5 +44,20 @@ namespace Tabu.Services.Abstracts
             }
             await context.SaveChangesAsync();
         }
-    }
+
+		public async Task UpdateAsync(LanguageUpdateDto dto, string Code)
+		{
+			var excistingLanguage = await context.Languages.FindAsync(Code);
+			if (excistingLanguage == null)
+			{
+				throw new Exception("Language Not Found brat!");
+			}
+			else
+			{
+				excistingLanguage.Name = dto.Name;
+				excistingLanguage.Icon = dto.Icon;
+			}
+			await context.SaveChangesAsync();
+		}
+	}
 }

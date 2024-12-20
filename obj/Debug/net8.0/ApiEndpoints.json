@@ -24,9 +24,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dto",
-        "Type": "Tabu.DTOs.Languages.LanguageDeleteDto",
-        "IsRequired": true
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -53,6 +53,11 @@
         "Name": "dto",
         "Type": "Tabu.DTOs.Languages.LanguageUpdateDto",
         "IsRequired": true
+      },
+      {
+        "Name": "Code",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -6,8 +6,8 @@ namespace Tabu.Services.Implements
     {
         Task CreateAsync(LanguageCreateDto dto);
         Task<IEnumerable<LanguageGetDto>> GetAllAsync();
-        Task UpdateAsync(LanguageUpdateDto dto);
-        Task DeleteAsync(LanguageDeleteDto dto);
+        Task UpdateAsync(LanguageUpdateDto dto,string Code);
+        Task DeleteAsync(string Code);
 
     }
 }

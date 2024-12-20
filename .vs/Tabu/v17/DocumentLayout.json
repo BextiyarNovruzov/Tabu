@@ -1,38 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\",
+  "WorkspaceRootPath": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\dtos\\languages\\languagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\languages\\languagegetdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\dal\\tabudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dal\\tabudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\services\\implements\\languagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\services\\implements\\languagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\implements\\languagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\services\\abstracts\\ilanguagesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\abstracts\\ilanguagesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\validators\\languages\\languagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:validators\\languages\\languagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\dtos\\languages\\languagedeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\languages\\languagedeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\dal\\tabudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dal\\tabudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\tabu\\dtos\\languages\\languageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\languages\\languageupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\dtos\\languages\\languagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\languages\\languagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,112 +30,72 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LanguageUpdateDto.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DTOs\\Languages\\LanguageUpdateDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Languages\\LanguageUpdateDto.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DTOs\\Languages\\LanguageUpdateDto.cs",
-              "RelativeToolTip": "DTOs\\Languages\\LanguageUpdateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "LanguagesService.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Services\\Implements\\LanguagesService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\LanguagesService.cs",
+              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Services\\Implements\\LanguagesService.cs",
+              "RelativeToolTip": "Services\\Implements\\LanguagesService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAzwBsAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:48:03.756Z"
+              "WhenOpened": "2024-12-20T15:01:51.54Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Program.cs",
+              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwBIAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:36:38.468Z"
+              "WhenOpened": "2024-12-20T14:55:36.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LanguageCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DTOs\\Languages\\LanguageCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Languages\\LanguageCreateDto.cs",
+              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DTOs\\Languages\\LanguageCreateDto.cs",
+              "RelativeToolTip": "DTOs\\Languages\\LanguageCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T14:47:57.653Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TabuDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DAL\\TabuDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DAL\\TabuDbContext.cs",
               "RelativeDocumentMoniker": "DAL\\TabuDbContext.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DAL\\TabuDbContext.cs",
+              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DAL\\TabuDbContext.cs",
               "RelativeToolTip": "DAL\\TabuDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBoAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:27:26.466Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ILanguagesServise.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Services\\Abstracts\\ILanguagesServise.cs",
-              "RelativeDocumentMoniker": "Services\\Abstracts\\ILanguagesServise.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Services\\Abstracts\\ILanguagesServise.cs",
-              "RelativeToolTip": "Services\\Abstracts\\ILanguagesServise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:14:10.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LanguagesService.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Services\\Implements\\LanguagesService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\LanguagesService.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Services\\Implements\\LanguagesService.cs",
-              "RelativeToolTip": "Services\\Implements\\LanguagesService.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAYwDYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:13:42.631Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LanguagesController.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Controllers\\LanguagesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LanguagesController.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\Controllers\\LanguagesController.cs",
-              "RelativeToolTip": "Controllers\\LanguagesController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:12:13.922Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LanguageGetDto.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DTOs\\Languages\\LanguageGetDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Languages\\LanguageGetDto.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DTOs\\Languages\\LanguageGetDto.cs",
-              "RelativeToolTip": "DTOs\\Languages\\LanguageGetDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T20:24:37.868Z",
+              "WhenOpened": "2024-12-20T14:42:16.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "LanguageDeleteDto.cs",
-              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DTOs\\Languages\\LanguageDeleteDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Languages\\LanguageDeleteDto.cs",
-              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\Tabu\\DTOs\\Languages\\LanguageDeleteDto.cs",
-              "RelativeToolTip": "DTOs\\Languages\\LanguageDeleteDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "LanguageCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "RelativeToolTip": "Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBsAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T21:10:53.002Z"
+              "WhenOpened": "2024-12-20T14:31:43.356Z",
+              "EditorCaption": ""
             }
           ]
         }
