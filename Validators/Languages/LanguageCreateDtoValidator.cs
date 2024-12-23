@@ -30,7 +30,7 @@ namespace Tabu.Validators.Languages
 				.WithMessage("Icon Empty Ola bimez!")
 				.NotNull()
 				.WithMessage("Icon Null ola bilmez!")
-				.MaximumLength(32)
+				.MaximumLength(512)
 				.WithMessage("Icon ucun MaxLength 512 dir...)");
 
 		}

@@ -1,26 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\",
+  "WorkspaceRootPath": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\services\\implements\\languagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\controllers\\bannedwordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:controllers\\bannedwordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\controllers\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:controllers\\wordscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\exceptions\\languages\\languagenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:exceptions\\languages\\languagenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\services\\implements\\wordsservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\implements\\wordsservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\services\\implements\\bannedwordservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\implements\\bannedwordservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\services\\abstracts\\ibannedwordservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\abstracts\\ibannedwordservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\services\\implements\\languagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\implements\\languagesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\validators\\languages\\languagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\services\\abstracts\\ilanguagesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\abstracts\\ilanguagesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\exceptions\\words\\wordnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:exceptions\\words\\wordnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:controllers\\languagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\exceptions\\languages\\languageexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:exceptions\\languages\\languageexistexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.1\\tabu\\validators\\languages\\languagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:validators\\languages\\languagecreatedtovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\dal\\tabudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dal\\tabudbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu\\dtos\\languages\\languagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\languages\\languagecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +58,161 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LanguagesService.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Implements\\LanguagesService.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\LanguagesService.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Implements\\LanguagesService.cs",
+              "RelativeToolTip": "Services\\Implements\\LanguagesService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwBwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:48:17.552Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LanguagesService.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Services\\Implements\\LanguagesService.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\LanguagesService.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Services\\Implements\\LanguagesService.cs",
-              "RelativeToolTip": "Services\\Implements\\LanguagesService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAIAzwBsAAAAfAAAAAAAAAA==",
+              "Title": "BannedWordsController.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Controllers\\BannedWordsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BannedWordsController.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Controllers\\BannedWordsController.cs",
+              "RelativeToolTip": "Controllers\\BannedWordsController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAqwCcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T15:01:51.54Z",
+              "WhenOpened": "2024-12-22T08:45:22.505Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwBUAAABBAAAAAAAAAA==",
+              "Title": "WordsServise.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Implements\\WordsServise.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\WordsServise.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Implements\\WordsServise.cs",
+              "RelativeToolTip": "Services\\Implements\\WordsServise.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAIwBkAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T14:55:36.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T09:40:41.943Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "LanguageCreateDto.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DTOs\\Languages\\LanguageCreateDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Languages\\LanguageCreateDto.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DTOs\\Languages\\LanguageCreateDto.cs",
-              "RelativeToolTip": "DTOs\\Languages\\LanguageCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Title": "BannedWordServise.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Implements\\BannedWordServise.cs",
+              "RelativeDocumentMoniker": "Services\\Implements\\BannedWordServise.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Implements\\BannedWordServise.cs",
+              "RelativeToolTip": "Services\\Implements\\BannedWordServise.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wBgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T14:47:57.653Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-22T08:43:05.998Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TabuDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DAL\\TabuDbContext.cs",
-              "RelativeDocumentMoniker": "DAL\\TabuDbContext.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\DAL\\TabuDbContext.cs",
-              "RelativeToolTip": "DAL\\TabuDbContext.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBoAAAAmAAAAAAAAAA==",
+              "Title": "LanguageNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Exceptions\\Languages\\LanguageNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\Languages\\LanguageNotFoundException.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Exceptions\\Languages\\LanguageNotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\Languages\\LanguageNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T14:42:16.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T15:06:16.506Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LanguageCreateDtoValidator.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Validators\\Languages\\LanguageCreateDtoValidator.cs",
-              "RelativeDocumentMoniker": "Validators\\Languages\\LanguageCreateDtoValidator.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu\\Validators\\Languages\\LanguageCreateDtoValidator.cs",
-              "RelativeToolTip": "Validators\\Languages\\LanguageCreateDtoValidator.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAqwBsAAAAmAAAAAAAAAA==",
+              "Title": "WordsController.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Controllers\\WordsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WordsController.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Controllers\\WordsController.cs",
+              "RelativeToolTip": "Controllers\\WordsController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwDkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-20T14:31:43.356Z",
+              "WhenOpened": "2024-12-22T09:40:19.881Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ILanguagesServise.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Abstracts\\ILanguagesServise.cs",
+              "RelativeDocumentMoniker": "Services\\Abstracts\\ILanguagesServise.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Abstracts\\ILanguagesServise.cs",
+              "RelativeToolTip": "Services\\Abstracts\\ILanguagesServise.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:04:08.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IBannedWordServise.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Abstracts\\IBannedWordServise.cs",
+              "RelativeDocumentMoniker": "Services\\Abstracts\\IBannedWordServise.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Services\\Abstracts\\IBannedWordServise.cs",
+              "RelativeToolTip": "Services\\Abstracts\\IBannedWordServise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T15:12:03.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WordNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Exceptions\\Words\\WordNotFoundException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\Words\\WordNotFoundException.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Exceptions\\Words\\WordNotFoundException.cs",
+              "RelativeToolTip": "Exceptions\\Words\\WordNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:54:47.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LanguagesController.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Controllers\\LanguagesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LanguagesController.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Controllers\\LanguagesController.cs",
+              "RelativeToolTip": "Controllers\\LanguagesController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:40:14.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LanguageExistException.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Exceptions\\Languages\\LanguageExistException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\Languages\\LanguageExistException.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Exceptions\\Languages\\LanguageExistException.cs",
+              "RelativeToolTip": "Exceptions\\Languages\\LanguageExistException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:39:11.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LanguageCreateDtoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "RelativeDocumentMoniker": "Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.1\\Tabu\\Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "RelativeToolTip": "Validators\\Languages\\LanguageCreateDtoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T14:37:21.579Z"
             }
           ]
         }

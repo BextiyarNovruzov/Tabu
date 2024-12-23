@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "dPGvJhypStyIXB4vjSvbwNhqW7QOkqpYj7HRjhOuCxY=",
+  "Hash": "qPYWRy8OsYCE6piSHSWXnmniEZPNKOv/dZ8yeATAKFU=",
   "Source": "Tabu",
   "BasePath": "_content/Tabu",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

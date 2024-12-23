@@ -1,20 +1,23 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using Tabu.DAL;
 using Tabu.DTOs.Languages;
+using Tabu.Entites;
+using Tabu.Exceptions.Language;
+using Tabu.Exceptions.Languages;
 using Tabu.Services.Implements;
 
 namespace Tabu.Services.Abstracts
 {
-    public class LanguagesService(TabuDbContext context) : ILanguagesServise
+    public class LanguagesService(TabuDbContext context,IMapper mapper) : ILanguagesServise
     {
         public async Task CreateAsync(LanguageCreateDto dto)
         {
-            await context.Languages.AddAsync(new Entites.Language
+            if(await context.Languages.AnyAsync(x=>x.Code == dto.Code))
             {
-                Code = dto.Code,
-                Name = dto.Name,
-                Icon = dto.IconUrl,
-            });
+                throw new LanguageExistException();
+            }
+            await context.Languages.AddAsync(mapper.Map<Language>(dto));
             await context.SaveChangesAsync();
         }
 
@@ -22,41 +25,39 @@ namespace Tabu.Services.Abstracts
 
         public async Task<IEnumerable<LanguageGetDto>> GetAllAsync()
         {
-            return await context.Languages.Select(L => new LanguageGetDto
+            var datas = await context.Languages.ToListAsync();
+            if(datas==null|| !datas.Any())
             {
-                Code = L.Code,
-                Name = L.Name, 
-                Icon = L.Icon,
-            }).ToListAsync();
+                throw new LanguageNotFoundException();
+            }
+            return mapper.Map<IEnumerable<LanguageGetDto>>(datas);
         }
 
        
         public async Task DeleteAsync(string Code)
         {
+            if( !context.Languages.Any(x=>x.Code==Code))
+            {
+                throw new LanguageNotFoundException();
+            }
             var excistingLanguage = await context.Languages.FindAsync(Code);
-            if(excistingLanguage == null)
-            {
-                throw new Exception("Brat onsuz yoxdu bu dil nece sileceksenki");
-            }
-            else
-            {
                 context.Languages.Remove(excistingLanguage);
-            }
+            
             await context.SaveChangesAsync();
         }
 
 		public async Task UpdateAsync(LanguageUpdateDto dto, string Code)
 		{
+            if (!context.Languages.Any(x => x.Code == Code))
+            {
+                throw new LanguageNotFoundException();
+            }
 			var excistingLanguage = await context.Languages.FindAsync(Code);
-			if (excistingLanguage == null)
-			{
-				throw new Exception("Language Not Found brat!");
-			}
-			else
-			{
-				excistingLanguage.Name = dto.Name;
-				excistingLanguage.Icon = dto.Icon;
-			}
+			
+                //excistingLanguage.Name = dto.Name;
+                //excistingLanguage.Icon = dto.Icon;
+                mapper.Map(dto,excistingLanguage);
+			
 			await context.SaveChangesAsync();
 		}
 	}

@@ -1,6 +1,11 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Tabu.DTOs.Languages;
+using Tabu.Entites;
+using Tabu.Exceptions;
+using Tabu.Exceptions.Language;
+using Tabu.Exceptions.Languages;
 using Tabu.Services.Implements;
 
 namespace Tabu.Controllers
@@ -13,26 +18,113 @@ namespace Tabu.Controllers
         [HttpPost("Create")]
         public async Task<IActionResult> Create(LanguageCreateDto dto)
         {
-            await servise.CreateAsync(dto);
-            return Ok();
+            try
+            {
+                await servise.CreateAsync(dto);
+                return Ok();
+            }
+            catch (LanguageExistException ex)
+            {
+                if (ex is IBaseException baseException)
+                {
+                    return StatusCode(baseException.StatusCode, new
+                    {
+                        Message = baseException.ErrorMessage,
+                        StatusCode = baseException.StatusCode,
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        StatusCode = ex.StatusCode,
+                        Message = ex.ErrorMessage,
+                    });
+                }
+            }
+
         }
         [HttpGet("Read")]
         public async Task<IActionResult> Read()
         {
-            return Ok(await servise.GetAllAsync());
-        }    
-          
+            try
+            {
+                return Ok(await servise.GetAllAsync());
+            }
+            catch (LanguageNotFoundException ex)
+            {
+
+                if (ex is IBaseException baseException)
+                {
+                    return StatusCode(baseException.StatusCode, new
+                    {
+                        Message = baseException.ErrorMessage,
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        Message = ex.Message
+                    });
+                }
+            }
+
+        }
+        
+
         [HttpPut("Update")]
-        public async Task<IActionResult> Update(LanguageUpdateDto dto,string Code)
+        public async Task<IActionResult> Update(LanguageUpdateDto dto, string Code)
         {
-            await servise.UpdateAsync(dto, Code);
-            return Ok();
-        }   
+            try
+            {
+                await servise.UpdateAsync(dto, Code);
+                return Ok();
+            }
+            catch (LanguageNotFoundException ex)
+            {
+                if (ex is IBaseException baseException)
+                {
+                    return StatusCode(baseException.StatusCode, new
+                    {
+                        Message = baseException.ErrorMessage
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        Message = ex.Message
+                    });
+                }
+            }
+        }
         [HttpDelete("Delete")]
         public async Task<IActionResult> Delete(string Code)
         {
-            await servise.DeleteAsync(Code);
-            return Ok();
-        }     
+            try
+            {
+                await servise.DeleteAsync(Code);
+                return Ok();
+            }
+
+            catch (LanguageNotFoundException ex)
+            {
+                if (ex is IBaseException baseExcepton)
+                {
+                    return StatusCode(baseExcepton.StatusCode, new
+                    {
+                        Message = baseExcepton.ErrorMessage
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        Message = ex.Message
+                    });
+                }
+            }
+        }
     }
 }
