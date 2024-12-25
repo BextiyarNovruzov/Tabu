@@ -8,7 +8,6 @@ namespace Tabu.Profiles
     {
         public BannedWordProfile()
         {
-            CreateMap<BannedWordCreateDto, BannedWord>();
             CreateMap<BannedWord, BannedWordGetDto>();
             CreateMap<BannedWord, BannedWordUpdateDto>().ReverseMap();
         }

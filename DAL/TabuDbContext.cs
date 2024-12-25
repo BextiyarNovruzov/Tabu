@@ -11,6 +11,7 @@ namespace Tabu.DAL
         public DbSet<Language> Languages { get; set; }
         public DbSet<Word> Word { get; set; }
         public DbSet<BannedWord> BannedWord { get; set; }
+        public DbSet<Game> Games { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Language>(l =>

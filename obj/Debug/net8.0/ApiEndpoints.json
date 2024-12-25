@@ -1,22 +1,6 @@
 [
   {
     "ContainingType": "Tabu.Controllers.BannedWordsController",
-    "Method": "Create",
-    "RelativePath": "api/BannedWords/Create",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "dto",
-        "Type": "Tabu.DTOs.BannedWords.BannedWordCreateDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "Tabu.Controllers.BannedWordsController",
     "Method": "Delete",
     "RelativePath": "api/BannedWords/Delete",
     "HttpMethod": "DELETE",
@@ -34,7 +18,7 @@
   {
     "ContainingType": "Tabu.Controllers.BannedWordsController",
     "Method": "Get",
-    "RelativePath": "api/BannedWords/Read",
+    "RelativePath": "api/BannedWords/Get",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -58,6 +42,54 @@
         "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.GamesController",
+    "Method": "Create",
+    "RelativePath": "api/Games/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tabu.DTOs.Games.GameCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.GamesController",
+    "Method": "Get",
+    "RelativePath": "api/Games/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.GamesController",
+    "Method": "Start",
+    "RelativePath": "api/Games/Start",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Tabu.DTOs.Games.GameCreateDto",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -136,6 +168,22 @@
       {
         "Name": "dto",
         "Type": "Tabu.DTOs.Words.WordCreateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Tabu.Controllers.WordsController",
+    "Method": "CreateMany",
+    "RelativePath": "api/Words/CreateMany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "System.Collections.Generic.List\u00601[[Tabu.DTOs.Words.WordCreateDto, Tabu, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       }
     ],

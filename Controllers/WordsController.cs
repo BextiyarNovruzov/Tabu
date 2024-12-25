@@ -1,6 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Tabu.DAL;
+﻿using Microsoft.AspNetCore.Mvc;
 using Tabu.DTOs.Words;
 using Tabu.Exceptions;
 using Tabu.Exceptions.Languages;
@@ -38,9 +36,9 @@ namespace Tabu.Controllers
                     });
                 }
             }
-            catch(LanguageNotFoundException ex)
+            catch (LanguageNotFoundException ex)
             {
-                if(ex is IBaseException baseExc)
+                if (ex is IBaseException baseExc)
                 {
                     return StatusCode(baseExc.StatusCode, new
                     {
@@ -56,6 +54,53 @@ namespace Tabu.Controllers
                 }
             }
         }
+        [HttpPost("[action]")]
+        public async Task<IActionResult> CreateMany(List<WordCreateDto> dto)
+        {
+            try
+            {
+                foreach (var item in dto)
+                {
+                    await servise.CreateAsync(item);
+                }
+                return Ok();
+            }
+            catch (WordExistException ex)
+            {
+                if (ex is IBaseException baseException)
+                {
+                    return StatusCode(baseException.StatusCode, new
+                    {
+                        Message = baseException.ErrorMessage,
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        Message = ex.Message,
+                    });
+                }
+            }
+            catch (LanguageNotFoundException ex)
+            {
+                if (ex is IBaseException baseExc)
+                {
+                    return StatusCode(baseExc.StatusCode, new
+                    {
+                        Message = baseExc.ErrorMessage,
+                    });
+                }
+                else
+                {
+                    return BadRequest(new
+                    {
+                        Message = ex.Message,
+                    });
+                }
+            }
+        }
+
         [HttpGet("Read")]
         public async Task<IActionResult> Get()
         {
@@ -94,7 +139,7 @@ namespace Tabu.Controllers
             catch (WordNotFoundException ex)
             {
 
-                if(ex is IBaseException baseException)
+                if (ex is IBaseException baseException)
                 {
                     return StatusCode(baseException.StatusCode, new
                     {

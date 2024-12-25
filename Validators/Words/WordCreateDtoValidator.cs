@@ -1,4 +1,5 @@
 ﻿using FluentValidation;
+using Microsoft.AspNetCore.Identity;
 using Tabu.DTOs.Words;
 
 namespace Tabu.Validators.Words
@@ -21,6 +22,20 @@ namespace Tabu.Validators.Words
                 .WithMessage("LanguageCode Null ola bilmez!")
                 .MaximumLength(2)
                 .WithMessage("LanguageCode 2 simvoldan cox ola bilmez!");
+            RuleForEach(x => x.BanedWords)
+                .MinimumLength(2)
+                .WithMessage("BannedWords min 2 herifli ola biler!")
+                .NotNull()
+                .WithMessage("BannedWords Null ola bilmez!")
+                .NotEmpty()
+                .WithMessage("BannedWords Empty ola bilmez");
+            RuleFor(x => x.BanedWords)
+                .NotNull()
+                .WithMessage("BannedWords Yaradilmalidir!")
+                .NotEmpty()
+                .WithMessage("BannedWords Yaradilmalidir!")
+                .Must(x=>x.Count == 6)
+                .WithMessage("BannedWords sayi 6 olmalidir!");
         }
     }
 }
