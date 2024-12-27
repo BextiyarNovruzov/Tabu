@@ -1,38 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\",
+  "WorkspaceRootPath": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\services\\implements\\bannedwordservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\implements\\bannedwordservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\entites\\bannedword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:entites\\bannedword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\servicesregitration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:servicesregitration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\services\\implements\\gamesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\services\\implements\\gamesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\implements\\gamesservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\services\\abstracts\\igameservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\abstracts\\igameservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\extention\\iquerableextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\extention\\iquerableextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:extention\\iquerableextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\dtos\\words\\wordforgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\words\\wordforgamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\entites\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:entites\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\dtos\\games\\gamestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\dtos\\games\\gamecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\games\\gamecreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\services\\abstracts\\igameservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:services\\abstracts\\igameservise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\bexti\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\codeacadamy\\api\\tabu 1.3\\tabu\\dtos\\games\\gamestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:dtos\\games\\gamestatusdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|c:\\users\\ii novbe\\desktop\\tabu\\tabu 1.3\\tabu\\controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1740D49-7762-4277-999F-BBF9C1B17A7D}|Tabu.csproj|solutionrelative:controllers\\gamescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,110 +46,126 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BannedWordServise.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Services\\Implements\\BannedWordServise.cs",
-              "RelativeDocumentMoniker": "Services\\Implements\\BannedWordServise.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Services\\Implements\\BannedWordServise.cs",
-              "RelativeToolTip": "Services\\Implements\\BannedWordServise.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAowDQAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T15:17:05.092Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BannedWord.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Entites\\BannedWord.cs",
-              "RelativeDocumentMoniker": "Entites\\BannedWord.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Entites\\BannedWord.cs",
-              "RelativeToolTip": "Entites\\BannedWord.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T15:16:11.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "GameStatusDto.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\DTOs\\Games\\GameStatusDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Games\\GameStatusDto.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\DTOs\\Games\\GameStatusDto.cs",
-              "RelativeToolTip": "DTOs\\Games\\GameStatusDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T15:09:04.037Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "WordForGameDto.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\DTOs\\Words\\WordForGameDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\Words\\WordForGameDto.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\DTOs\\Words\\WordForGameDto.cs",
-              "RelativeToolTip": "DTOs\\Words\\WordForGameDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAdAAAAAAAAAA==",
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Entites\\Game.cs",
+              "RelativeDocumentMoniker": "Entites\\Game.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Entites\\Game.cs",
+              "RelativeToolTip": "Entites\\Game.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:22:41.678Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-27T07:11:29.084Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "IQuerableExtention.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Extention\\IQuerableExtention.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Extention\\IQuerableExtention.cs",
               "RelativeDocumentMoniker": "Extention\\IQuerableExtention.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Extention\\IQuerableExtention.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Extention\\IQuerableExtention.cs",
               "RelativeToolTip": "Extention\\IQuerableExtention.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T14:14:12.311Z",
+              "WhenOpened": "2024-12-27T07:07:40.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServicesRegitration.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\ServicesRegitration.cs",
+              "RelativeDocumentMoniker": "ServicesRegitration.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\ServicesRegitration.cs",
+              "RelativeToolTip": "ServicesRegitration.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T07:07:10.722Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IGameServise.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Services\\Abstracts\\IGameServise.cs",
-              "RelativeDocumentMoniker": "Services\\Abstracts\\IGameServise.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Services\\Abstracts\\IGameServise.cs",
-              "RelativeToolTip": "Services\\Abstracts\\IGameServise.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "GameStatusDto.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\DTOs\\Games\\GameStatusDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Games\\GameStatusDto.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\DTOs\\Games\\GameStatusDto.cs",
+              "RelativeToolTip": "DTOs\\Games\\GameStatusDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAIA4wBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T01:29:47.324Z",
+              "WhenOpened": "2024-12-27T03:31:07.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\DTOs\\Games\\GameCreateDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\Games\\GameCreateDto.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\DTOs\\Games\\GameCreateDto.cs",
+              "RelativeToolTip": "DTOs\\Games\\GameCreateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T03:31:06.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAQwCgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:59:33.41Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IGameServise.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Services\\Abstracts\\IGameServise.cs",
+              "RelativeDocumentMoniker": "Services\\Abstracts\\IGameServise.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Services\\Abstracts\\IGameServise.cs",
+              "RelativeToolTip": "Services\\Abstracts\\IGameServise.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-27T01:57:28.595Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GamesServise.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Services\\Implements\\GamesServise.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Services\\Implements\\GamesServise.cs",
               "RelativeDocumentMoniker": "Services\\Implements\\GamesServise.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Services\\Implements\\GamesServise.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Services\\Implements\\GamesServise.cs",
               "RelativeToolTip": "Services\\Implements\\GamesServise.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwDQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAADEAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-25T01:12:55.576Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "GamesController.cs",
-              "DocumentMoniker": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Controllers\\GamesController.cs",
+              "DocumentMoniker": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Controllers\\GamesController.cs",
               "RelativeDocumentMoniker": "Controllers\\GamesController.cs",
-              "ToolTip": "C:\\Users\\II novbe\\Desktop\\Tabu\\Tabu 1.3\\Tabu\\Controllers\\GamesController.cs",
+              "ToolTip": "C:\\Users\\bexti\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\CodeAcadamy\\API\\Tabu 1.3\\Tabu\\Controllers\\GamesController.cs",
               "RelativeToolTip": "Controllers\\GamesController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAD4vyYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-25T00:59:45.451Z",
+              "WhenOpened": "2024-12-25T21:18:50.132Z",
               "EditorCaption": ""
             }
           ]

@@ -1,10 +1,15 @@
 
 using FluentValidation;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.EntityFrameworkCore;
 using Tabu.DAL;
+using Tabu.Exceptions.Languages;
+using Tabu.Exceptions;
 using Tabu.Services.Abstracts;
 using Tabu.Services.Implements;
+using System;
 
 namespace Tabu
 {
@@ -16,7 +21,7 @@ namespace Tabu
 
             // Add services to the container.
             builder.Services.AddControllers();
-            builder.Services.AddDbContext<TabuDbContext>(s=>s.UseSqlServer(builder.Configuration.GetConnectionString("MsSql")));
+            builder.Services.AddDbContext<TabuDbContext>(s => s.UseSqlServer(builder.Configuration.GetConnectionString("MsSql")));
             builder.Services.AddServices();
             builder.Services.AddFluentValidationAutoValidation();
             builder.Services.AddValidatorsFromAssemblyContaining<Program>();
@@ -33,7 +38,7 @@ namespace Tabu
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseTabuExceptionHandler();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

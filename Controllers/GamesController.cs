@@ -10,15 +10,14 @@ namespace Tabu.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class GamesController(IGameServise servise,IMemoryCache chache) : ControllerBase
+    public class GamesController(IGameServise servise) : ControllerBase
     {
         [HttpPost("[action]")]
         public async Task<IActionResult> Create(GameCreateDto dto)
         {
             try
             {
-                var NewGame = await servise.CreateAsync(dto);
-                return Ok(NewGame);
+                return Ok(await servise.CreateAsync(dto));
             }
             catch (LanguageNotFoundException ex)
             {
@@ -39,22 +38,32 @@ namespace Tabu.Controllers
             }
         }
         [HttpGet("[action]")]
-        public async Task<IActionResult> Get(string key)
+        public async Task<IActionResult>Start(Guid id)
         {
-            var getingdata = chache.Get(key);
-            return Ok(getingdata);
+            return Ok(await servise.Start(id));
         }
-        //[HttpGet("[action]")]
-        //public async Task<IActionResult> Start(string key , string value)
-        //{
-        //    var setingdata = chache.Set<string>(key, value, DateTime.Now.AddSeconds(30));
-        //    return Ok(setingdata);
-        //}
-
+        
         [HttpGet("[action]")]
-        public Task<IActionResult>Set()
+        public async Task<IActionResult>Skip(Guid id)
         {
+            return Ok(await servise.Skip(id));
+        }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> Success(Guid id)
+        {
+            return Ok(await servise.Success(id));
+        }
+        [HttpGet("[action]")]
+        public async Task<IActionResult> Fail(Guid id)
+        {
+            return Ok(await servise.Fail(id));
+        }
+        [HttpGet("[action]")]
+        public async Task End(Guid id)
+        {
+            servise.End(id);
         }
 
     }
 }
+    

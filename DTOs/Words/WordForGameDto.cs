@@ -6,6 +6,6 @@ namespace Tabu.DTOs.Words
 	{
 		public int Id { get; set; }
 		public string Word { get; set; }
-		public IEnumerable<string>BannedWords { get; set; }
+		public IEnumerable<string> BannedWords { get; set; }
 	}
 }

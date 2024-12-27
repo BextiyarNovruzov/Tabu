@@ -67,20 +67,20 @@ namespace Tabu.Services.Implements
         public async Task UpdateAsync(WordUpdateDto dto, int id)
         {
 
-                var existWord = await context.Word.FindAsync(id);
+            var existWord = await context.Word.FindAsync(id);
 
-                //if (existWord != null)
-                //{
-                //    existWord.Text = dto.Text;
-                //    existWord.LanguageCode = dto.LanguageCode;
-                //}
-                if (existWord == null)
+            //if (existWord != null)
+            //{
+            //    existWord.Text = dto.Text;
+            //    existWord.LanguageCode = dto.LanguageCode;
+            //}
+            if (existWord == null)
 
-                {
-                    throw new WordNotFoundException();
-                }
-                mapper.Map(dto, existWord);
-                await context.SaveChangesAsync();
+            {
+                throw new WordNotFoundException();
+            }
+            mapper.Map(dto, existWord);
+            await context.SaveChangesAsync();
 
         }
 
@@ -90,15 +90,17 @@ namespace Tabu.Services.Implements
             {
                 Text = dto.Text,
                 LanguageCode = dto.LanguageCode,
-                BannedWords = dto.BanedWords.Select(x => new BannedWord
-                {
-                    Text = x,
-                }).ToList()
+               
             };
+            word.BannedWords = dto.BanedWords.Select(x => new BannedWord
+            {
+                Text = x
+            }).ToList();
+
+
             await context.Word.AddAsync(word);
             await context.SaveChangesAsync();
             return word.Id;
         }
     }
 }
-    
